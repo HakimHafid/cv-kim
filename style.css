@@ -74,8 +74,7 @@
   font-size: 20px;
   text-align: justify;
   font-family: Segoe UI;
-  margin: 0px;
-  padding: 0px;
+  margin-top: 8px;
   color: aliceblue;
 }
 .text_contact {
@@ -110,10 +109,7 @@
   border-bottom: 3px solid whitesmoke;
   color: aliceblue;
 }
-.list_concentration {
-  justify-content: space-between;
-  align-content: space-between;
-}
+
 .container_icon {
   padding: 15px;
   display: inline;
@@ -355,23 +351,21 @@
   background-color: aliceblue;
   padding-left: 20px;
 }
-.skill {
+.list_skill {
   font-family: Segoe UI;
   font-weight: 000;
   font-size: 30px;
-
   margin: 0px;
   padding: 0px;
-  /* overflow: hidden;} */
+  margin-top: 10px;
 }
-
 .container_persen {
   display: grid;
   grid-template-rows: auto auto;
   gap: 0px;
   width: 300px;
   height: 20px;
-  padding-top: 25px;
+  padding-top: 35px;
 }
 .progress {
   width: 300px;
@@ -407,6 +401,6 @@
   width: 75%;
 }
 .progress-red span {
-  background-color: rgb(195, 0, 255);
+  background-color: darkorchid;
   width: 90%;
 }
