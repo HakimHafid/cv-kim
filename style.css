@@ -216,7 +216,7 @@
   top: 600px;
   width: 100px;
   opacity: 0;
-  z-index: 2;
+  z-index: 3;
 }
 .template:hover {
   transform: scale(1.5);
